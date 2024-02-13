@@ -634,7 +634,7 @@ video {
 }
 @media screen and (max-width: 40em) {
     .grid-row {
-        margin: 0 auto;
+        margin: 0 2em;
     }
 }
 .grid-column {
@@ -1125,7 +1125,7 @@ hr {
     margin: 0.8rem;
 }
 .mt1 {
-    margin-top: 0.8rem;
+    margin-top: 2.0rem;
 }
 .mr1 {
     margin-right: 0.8rem;
