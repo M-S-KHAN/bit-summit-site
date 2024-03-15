@@ -460,6 +460,8 @@ fieldset[disabled] .btn {
     .btn {
         display: block;
         margin-bottom: 0.8rem;
+        width: 70%;
+        margin: auto;
     }
 }
 a.btn.disabled,
