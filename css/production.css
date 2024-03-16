@@ -1450,10 +1450,20 @@ hr {
     padding: 15px;
     color: #ffffff;
     text-decoration: none;
-    pointer-events: none;
+    pointer-events: auto;
     font-family: 'Inter', 'Avenir', 'Roboto', 'Helvetica', sans-serif;
   }
   
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    cursor: default;
+}
+
   a.card {
     &:hover {
         box-shadow: 0 7px 10px rgba(152, 145, 145, 0.25), 0 10px 10px rgba(152, 145, 145, 0.25);

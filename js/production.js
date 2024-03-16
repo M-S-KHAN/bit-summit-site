@@ -15,3 +15,12 @@
         });
     }
 })();
+// Get all card elements
+const cards = document.querySelectorAll('.card');
+
+// Loop through each card and prevent default click behavior
+cards.forEach(card => {
+    card.addEventListener('click', function(event) {
+        event.preventDefault();
+    });
+});
