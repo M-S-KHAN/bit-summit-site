@@ -1404,6 +1404,7 @@ hr {
   .desc {
     color: #707070;
     font-weight: 400;
+    padding-bottom: 3px;
   }
   
   .info {
