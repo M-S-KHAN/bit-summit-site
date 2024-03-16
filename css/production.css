@@ -1450,6 +1450,7 @@ hr {
     padding: 15px;
     color: #ffffff;
     text-decoration: none;
+    pointer-events: none;
     font-family: 'Inter', 'Avenir', 'Roboto', 'Helvetica', sans-serif;
   }
   
