@@ -1406,6 +1406,13 @@ hr {
     font-weight: 400;
   }
   
+  .info {
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+  }
+
+
   .list {
     display: flex;
     flex-direction: row;
@@ -1441,7 +1448,7 @@ hr {
     border-radius: 16px;
     padding: 15px;
     color: #ffffff;
-    text-decoration: solid;
+    text-decoration: none;
     font-family: 'Inter', 'Avenir', 'Roboto', 'Helvetica', sans-serif;
   }
   
@@ -1460,4 +1467,8 @@ hr {
     border-radius: 12px;
     min-height: 1px;
     aspect-ratio: 2/2;
+  }
+
+  .card-title {
+    margin-top: 25px;
   }
